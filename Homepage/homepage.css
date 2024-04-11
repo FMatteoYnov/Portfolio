@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    background-image: url('background.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .navigation .return {
+    font-size: 90px;
+    text-decoration: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    padding: 30px;
+  }
+  
+  .name {
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .portfolio {
+    font-size: 25px;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .links .menu-link {
+    font-size: 16px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: grey;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .links .menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  

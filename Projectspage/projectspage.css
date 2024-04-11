@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background-image: url('background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation {
+  font-size: 90px;
+  position: fixed;
+  text-decoration: none;
+  top: 0px;
+  left: 0px;
+  color: black;
+  padding: 30px;
+}
+
+.header {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project {
+  position: absolute;
+  width: 40%;
+  color: black;
+}
+
+.left {
+  top: 150px;
+  left: 10%;
+}
+
+.right {
+  top: 150px;
+  right: 5%;
+}
+
+.project-title {
+  color: black;
+  font-size: 30px;
+}
+
+.project-description {
+  color: black;
+  font-size: 18px;
+}
+
+.tech-stack {
+  margin-top: 20px;
+}
+
+.tech-logo, .go {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.go {
+  height: auto;
+  width: 100px;
+}
