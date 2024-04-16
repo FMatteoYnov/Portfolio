@@ -66,4 +66,56 @@ body, html {
     width: 100%;
     height: auto;
   }
-  
+
+  /* Pour les tablettes */
+@media (max-width: 768px) {
+  .content {
+      top: 55%; /* Légèrement ajusté pour une meilleure visibilité */
+      width: 95%; /* Plus large pour utiliser plus d'espace disponible */
+  }
+
+  .content h1 {
+      font-size: 2.5rem;
+  }
+
+  .intro-text {
+      font-size: 1rem;
+      padding: 0 5%; /* Moins de padding pour plus d'espace texte */
+  }
+
+  .profile-pic {
+      top: 10px; /* Moins d'espace en haut */
+      right: 10px;
+      width: 8rem;
+      height: 8rem;
+  }
+}
+
+/* Pour les téléphones mobiles */
+@media (max-width: 480px) {
+  .navigation .return {
+      font-size: 3rem;
+      padding: 1rem;
+  }
+
+  .content {
+      top: 60%; /* Encore plus bas pour s'adapter au texte */
+      width: 100%; /* Utilisation maximale de l'espace */
+  }
+
+  .content h1 {
+      font-size: 2rem;
+  }
+
+  .intro-text {
+      font-size: 0.9rem;
+      padding: 0 2%; /* Réduction maximale du padding */
+  }
+
+  .profile-pic {
+      width: 6rem;
+      height: 6rem;
+      top: 5px;
+      right: 5px;
+  }
+}

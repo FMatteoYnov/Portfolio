@@ -64,3 +64,45 @@ body, html {
     height: auto;
     margin-right: 12px;
   }
+
+/* Pour les tablettes */
+@media (max-width: 768px) {
+  .navigation.return {
+      font-size: 3rem;
+      padding: 1rem;
+  }
+
+  .content {
+      top: 55%; /* Ajustement vertical */
+      width: 95%;
+  }
+
+  .content h1 {
+      font-size: 2.5rem;
+  }
+
+  .contact-link {
+      font-size: 1.25rem;
+  }
+}
+
+/* Pour les téléphones mobiles */
+@media (max-width: 480px) {
+  .content {
+      top: 60%; /* Plus d'espace en haut pour l'accessibilité */
+      width: 100%;
+  }
+
+  .content h1 {
+      font-size: 2rem;
+  }
+
+  .contact-link {
+      font-size: 1rem;
+      flex-direction: column; /* Empile les éléments verticalement pour plus de clarté */
+  }
+
+  .contact-link img {
+      margin: 0 0 0.5rem; /* Ajustement de la marge pour l'image */
+  }
+}

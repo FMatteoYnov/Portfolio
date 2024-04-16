@@ -58,4 +58,48 @@ body, html {
   .links .menu-link:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  
+
+@media (max-width: 768px) {
+  .content {
+      top: 50%; /* Ajustement pour un meilleur positionnement vertical */
+      width: 95%; /* Augmentation de la largeur pour les petits écrans */
+  }
+
+  .navigation .return {
+      font-size: 60px; /* Diminution de la taille pour les petits écrans */
+      padding: 20px;
+  }
+
+  .name {
+      font-size: 3rem; /* Ajustement de la taille de police pour une meilleure visibilité */
+  }
+
+  .portfolio {
+      font-size: 1.2rem;
+  }
+
+  .links .menu-link {
+      font-size: 0.9rem;
+      padding: 8px; /* Légère réduction du padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation .return {
+      font-size: 40px; /* Plus petit encore pour les très petits écrans */
+      padding: 15px;
+  }
+
+  .name {
+      font-size: 2.5rem; /* Réduction supplémentaire pour les très petits écrans */
+  }
+
+  .portfolio {
+      font-size: 1rem;
+  }
+
+  .links .menu-link {
+      font-size: 0.8rem;
+      margin: 0 10px; /* Réduction de la marge latérale */
+  }
+}

@@ -43,4 +43,30 @@ body, html {
     cursor: pointer;
     color: gray;
   }
-  
+
+/* Adaptations spécifiques pour les grands écrans */
+@media (min-width: 1024px) {
+  .content {
+      width: 50%; /* Largeur ajustée pour les grands écrans */
+  }
+}
+
+/* Adaptations pour les tablettes */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+      width: 70%; /* Largeur ajustée pour les tablettes */
+  }
+}
+
+/* Pour les téléphones mobiles */
+@media (max-width: 767px) {
+  .content {
+    width: 95%; /* Ajuste la largeur pour optimiser l'espace sur les petits écrans */
+  }
+  .name {
+    font-size: calc(14px + 1.2vw); /* Taille dynamique adaptée pour les petits écrans */
+  }
+  .portfolio {
+    font-size: calc(10px + 1vw); /* Taille dynamique adaptée pour les petits écrans */
+  } 
+}

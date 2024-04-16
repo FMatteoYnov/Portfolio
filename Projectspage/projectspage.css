@@ -65,3 +65,59 @@ body, html {
   height: auto;
   width: 100px;
 }
+
+@media (max-width: 768px) {
+  .navigation.return {
+    font-size: 3rem; /* Réduisez la taille pour économiser de l'espace */
+    padding: 1rem;
+  }
+
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .project {
+    width: 95%; /* Augmente la largeur pour les petits écrans */
+    margin-top: 20px;
+  }
+
+  .project-title {
+    font-size: 1.75rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .tech-logo, .go {
+    height: 40px; /* Réduisez légèrement la taille des logos */
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation.return {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+
+  .project {
+    width: 100%; /* Utilisez toute la largeur disponible */
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+
+  .tech-logo, .go {
+    height: 30px; /* Encore plus petit pour les très petits écrans */
+  }
+}
